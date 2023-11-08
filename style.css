@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+body{
+    background-image: url(img/gym/GYM\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    width: 1280px;
+    height: 601px;
+    border-top: 6px solid rgb(234, 80, 80);
+    border-bottom: 6px solid rgb(234, 80, 80);
+}
+
+nav{
+    width: 600px;
+    height: 80px;
+    display: inline-block;
+}
+
+.logo img{
+    color: white;
+    text-align: center;
+    margin: 32px 160px;
+    display: block;
+    height: 39px;
+    width: 54px;
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin: -74px;
+    font-size: 32px;
+    color: #ec4141;
+}
+
+.box ul{
+    width: 675px;
+    height: 10px;
+    margin: 0 3px;
+    margin-left: auto;
+    padding: 8px 24px;
+    text-align: center;
+}
+
+.box ul a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 16px;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Quicksand',sans-serif;
+}
+
+.box ul a li{
+    list-style: none;
+}
+
+.box ul a li:hover{
+    color: #ec4141;
+}
+
+.container{
+    margin: -480px 8px;
+    padding: 7px 25px;
+    width: 43%;
+    border-radius: 28px;
+}
+
+h2{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 244, 230);
+}
+
+.one{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: #ec4141;    
+}
+
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color:rgb(0, 255, 238);
+    margin-left: 3px;
+}
+
+.form-group input{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center; 
+    display: block;    
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 3px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container button{
+    font-family:'Quicksand',sans-serif;
+    display: block;
+    width: 99%;
+    margin: 24px auto;
+    height: 35px;
+    font-size: 25px;
+    border-radius: 23px;
+    background-color: rgb(151, 186, 238);
+}
+
+.container button:hover{
+    cursor:pointer;
+    background-color: rgb(130, 255, 255);
+}
